@@ -22,13 +22,16 @@ $colore5 = $colors['color5'];
         align-items: center;
         border-radius: 12px;
     }
+
     #lihead {
         display: inline;
         margin-right: 20px;
     }
+
     #lihead:last-child {
         margin-left: auto;
     }
+
     #linkhead {
         color: <?php echo $colore1; ?>;
         text-decoration: none;
@@ -37,15 +40,16 @@ $colore5 = $colors['color5'];
         display: flex;
         align-items: center;
     }
+
     #linkhead #iconehead {
         margin-right: 8px;
     }
 </style>
 
 <ul id="ulhead">
-    <li id="lihead"><a id="linkhead" href="index.php">          <i id="iconehead" class="fas fa-home"></i>HOME</a></li>
-    <li id="lihead"><a id="linkhead" href="classifica.php">     <i id="iconehead" class="fas fa-trophy"></i> CLASSIFICA</a></li>
-    <li id="lihead"><a id="linkhead" href="informazioni.php">   <i id="iconehead" class="fas fa-info-circle"></i> INFORMAZIONI</a></li>
-    <li id="lihead"><a id="linkhead" href="gestisci.php">       <i id="iconehead" class="fas fa-cog"></i> GESTIONE</a></li>
-    <li id="lihead"><a id="linkhead" href="accesso.php">        <i id="iconehead" class="fas fa-sign-in-alt"></i> ACCEDI</a></li>
+    <li id="lihead"><a id="linkhead" href="index.php"> <i id="iconehead" class="fas fa-home"></i>HOME</a></li>
+    <li id="lihead"><a id="linkhead" href="classifica.php"> <i id="iconehead" class="fas fa-trophy"></i> CLASSIFICA</a></li>
+    <li id="lihead"><a id="linkhead" href="informazioni.php"> <i id="iconehead" class="fas fa-info-circle"></i> INFORMAZIONI</a></li>
+    <li id="lihead"><a id="linkhead" href="gestisci.php"> <i id="iconehead" class="fas fa-cog"></i> GESTIONE</a></li>
+    <li id="lihead"><a id="linkhead" href="accesso.php"> <i id="iconehead" class="fas fa-sign-in-alt"></i> ACCEDI</a></li>
 </ul>
