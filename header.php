@@ -13,6 +13,13 @@ $colore5 = $colors['color5'];
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
+    
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+    body {
+        font-family: 'Oswald', sans-serif;
+    }
+
     #ulhead {
         background-color: <?php echo $colore4; ?>;
         list-style-type: none;
@@ -35,8 +42,8 @@ $colore5 = $colors['color5'];
     #linkhead {
         color: <?php echo $colore1; ?>;
         text-decoration: none;
-        font-family: 'Roboto', sans-serif;
-        font-size: 18px;
+        font-size: 20px;
+        /*font-weight: bold;*/
         display: flex;
         align-items: center;
     }

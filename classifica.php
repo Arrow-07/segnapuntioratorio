@@ -1,21 +1,21 @@
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Classifica</title>
+    <title>Classifica - OratorioScore</title>
     <style>
         /* Stili CSS per la pagina */
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
         .head {
-            margin: 0 auto; /* Centrare la pagina orizzontalmente */
+            margin: 0 auto;
+            /* Centrare la pagina orizzontalmente */
             margin-top: 30px;
-            padding: 0 50px; /* Spazio di 50px a sinistra e a destra */
+            padding: 0 50px;
         }
         .container {
             max-width: 800px;  /* Larghezza massima della pagina */
@@ -45,9 +45,7 @@
     <div class="container">
        
 
-        <h2>Classifica</h2>
-        
-        
+        <h1>CLASSIFICA </h1>
         <div class="charts">
             <div class="chart-container">
                 <canvas id="barChart"></canvas>

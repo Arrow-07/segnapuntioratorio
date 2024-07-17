@@ -3,11 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina con immagine e didascalie</title>
+    <title>Home - OratorioScore</title>
     <style>
         /* Stili CSS per la pagina */
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }

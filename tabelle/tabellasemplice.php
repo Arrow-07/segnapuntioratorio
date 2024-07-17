@@ -1,33 +1,40 @@
 <body>
     <style>
-        table {
+        .table {
             width: 100%;
             border-collapse: collapse;
             margin-top: 20px;
+            margin-bottom: 30px;
         }
 
-        th,
-        td {
+        .th,
+        .td {
             border: 1px solid #ddd;
             padding: 8px;
             text-align: left;
         }
 
-        th {
+        .th {
             background-color: #f2f2f2;
         }
 
-        tr:nth-child(even) {
+        .tr:nth-child(even) {
             background-color: #f9f9f9;
+        }
+
+        .caption{
+
+            margin-bottom: 10px;
         }
     </style>
 
-    <table>
+    <table class="table">
+        <caption class="caption"><h1>PUNTI TOTALI DELLE SQUADRE</h1></caption>
         <thead>
-            <tr>
-                <th>Posizione</th>
-                <th>Nome</th>
-                <th>Punti</th>
+            <tr class="tr">
+                <th class="th">Posizione</th>
+                <th class="th">Nome</th>
+                <th class="th">Punti</th>
             </tr>
         </thead>
         <tbody>
@@ -38,10 +45,10 @@
             // Ciclo per generare le righe della tabella
             $posizione = 1;
             foreach ($classifica as $giocatore) {
-                echo "<tr>";
-                echo "<td>{$posizione}</td>";
-                echo "<td>{$giocatore['nome']}</td>";
-                echo "<td>{$giocatore['punti']}</td>";
+                echo "<tr class=\"tr\">";
+                echo "<td class=\"td\">{$posizione}</td>";
+                echo "<td class=\"td\">{$giocatore['nome']}</td>";
+                echo "<td class=\"td\">{$giocatore['punti']}</td>";
                 echo "</tr>";
                 $posizione++;
             }
