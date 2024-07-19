@@ -19,6 +19,17 @@
         },
         options: {
             responsive: true,
+            plugins: {
+                    title: {
+                        display: true,
+                        text: 'ANDAMENTO PUNTI',
+                        font: {
+                            size: 20,
+                            family: 'Oswald',
+                            weight: 'bold',
+                        }
+                    }
+                },
             scales: {
                 y: {
                     beginAtZero: true

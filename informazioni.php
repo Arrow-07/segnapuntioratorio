@@ -1,7 +1,7 @@
 <html>
 <?php
 // Includere il file di configurazione
-$colors = include('color.php');
+$colors = include('./php/color.php');
 
 // Assegnare i colori a variabili PHP
 $colore1 = $colors['color1'];
@@ -99,7 +99,7 @@ $colore5 = $colors['color5'];
 
     <div class="container">
         <?php
-        require('header.php');
+        require('./php/header.php');
         ?>
 
         <h1>Informazioni su OratorioScore</h1>

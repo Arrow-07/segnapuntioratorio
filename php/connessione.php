@@ -22,12 +22,16 @@ $password=$connessione->real_escape_string($_REQUEST['pw']);
 $sql="INSERT INTO utenti (name, cognome, email, pw) VALUES
 (?, ?, ?, ?)";
 
-if($connessione->query($sql) == true){
-    echo("persona inserita con successo");
+if($statemant = $connessione->prepare($sql)){
+    $statemant->bind_param("ssss", $nome, $cognome, $email, $password);
+    $statemant->execute();
+
+    echo("inserimento ok");
 }else{
-    echo("errore:" . $connessione->error);
+    echo("ERRORE: " . $sql . $connessione->error);
 }
 
+$statemant->close();
 
 $connessione->close();
 ?>

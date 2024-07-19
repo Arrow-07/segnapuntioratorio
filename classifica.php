@@ -39,7 +39,7 @@
 <body> 
     <div class="head">
     <?php
-        require('header.php');
+        require('./php/header.php');
     ?>
     </div>
     <div class="container">

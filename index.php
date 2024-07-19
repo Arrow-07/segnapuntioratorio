@@ -108,7 +108,7 @@
 
     <div class="container">
         <?php
-        require('header.php');
+        require('./php/header.php');
         ?>
         <div class="content">
             <div class="circle">

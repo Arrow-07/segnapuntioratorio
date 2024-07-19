@@ -27,6 +27,17 @@
             },
             options: {
                 responsive: true,
+                plugins: {
+                    title: {
+                        display: true,
+                        text: 'PUNTI DI QUESTA SETTIMANA:',
+                        font: {
+                            size: 20,
+                            family: 'Oswald',
+                            weight: 'bold',
+                        }
+                    }
+                },
                 scales: {
                     y: {
                         beginAtZero: true
